@@ -7,7 +7,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path='/' component={Home} />
-        <Route exact path='/post/:postID' component={PostDetail} />
+        <Route exact path='/post/:postId' component={PostDetail} />
         <Route exact path='/createPost' component={CreatePost} />
       </Switch>
     </div>
